@@ -3,8 +3,6 @@ body {
 }
 
 .container {
-    width: 1920px;
-    height: 420px;
     background-image: url("../img/PICTURE.png");
     display: flex;
     justify-content: center;
@@ -16,11 +14,6 @@ body {
 
 .logo {
     margin: 120px 0 30px 0;
-}
-
-.container::after {
-    position: absolute;
-    content: url("../img/12_Col_GRID.png");
 }
 
 .social_part {
